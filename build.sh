@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 # My.Calculator (restore, build)
 dotnet restore src/My.Calculator/project.json
