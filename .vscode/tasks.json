@@ -1,0 +1,22 @@
+{
+    "version": "0.1.0",
+    "command": "sh",
+    "isShellCommand": true,
+    "args": [],
+    "showOutput": "always",
+    "suppressTaskName": true,
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": [ "${workspaceRoot}/build.sh" ],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "test",
+            "args": [ "${workspaceRoot}/test.sh" ],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
