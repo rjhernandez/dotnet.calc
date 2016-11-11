@@ -1,4 +1,5 @@
 ﻿using System;
+using Humanizer;
 
 namespace My.Calculator
 {
@@ -6,7 +7,10 @@ namespace My.Calculator
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var a = 2;
+            var b = 3;
+
+            Console.WriteLine($"{a.ToWords()} + {b.ToWords()} = {MyCalculator.Add(a, b).ToWords()}");
         }
     }
 }

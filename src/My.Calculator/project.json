@@ -6,6 +6,7 @@
     "outputName": "My.Calculator"
   },
   "dependencies": {  
+    "Humanizer.Core": "2.1.0"
   },
   "frameworks": {
     "netcoreapp1.0": {

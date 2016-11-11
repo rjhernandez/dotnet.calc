@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/src/My.Calculator/bin/Debug/netcoreapp1.0/Calculator.dll",
+            "program": "${workspaceRoot}/src/My.Calculator/bin/Debug/netcoreapp1.0/My.Calculator.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "externalConsole": false,
