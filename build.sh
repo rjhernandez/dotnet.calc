@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # My.Calculator (restore, build)
-dotnet restore src/My.Calculator/project.json
-dotnet build src/My.Calculator/project.json
+dotnet restore src/My.Calculator/My.Calculator.csproj
+dotnet build src/My.Calculator/My.Calculator.csproj
 
 # My.Calculator.Tests (restore, build)
-dotnet restore tests/My.Calculator.Tests/project.json
-dotnet build tests/My.Calculator.Tests/project.json
+dotnet restore src/My.Calculator.Tests/My.Calculator.Tests.csproj
+dotnet build src/My.Calculator.Tests/My.Calculator.Tests.csproj
